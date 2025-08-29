@@ -1,0 +1,45 @@
+To upload your project to github- 
+
+1) First create repository in github by clicking new button and make sure to include readme.md file
+
+2) Install and setup Git bash 
+
+3)Run git bash to the directory by right click button where you want your repository to be kept.
+		
+	clone your repository to that directory by typing git clone command in git bash window
+
+	 for example if your repository name is " My-first-repository " then type as 
+	
+	git clone https://github.com/yourusername/My-first-repository
+
+then you will see the folder My-first-repository
+
+4) Copy and paste the files and folders in " My-first-repository" folder those are to be uploaded. 
+
+5) Then enter into that folder by command " cd My-first-repository" or you can just enter manually and open git bash by right click to open git bash window
+
+6) To upload files type below command one after another (very important)
+	
+		 git add .
+		 git commit -m "My first repo"
+		 git push origin main
+
+7) check or github repository by refreshing it then you can see your all files and folders of your project.
+
+To delete folder or file , suppose your repository has a folder name or file name as " this folder " and you want to remove it from your repository then type these command in these sequence only (Sequence is very important)
+
+		git rm -r 'this folder'
+		git commit -m "My first repo"
+		git pull origin main --rebase
+		git push origin main
+
+To add new folder to existing repository, suppose you want to add folder name "This folder" then type these command - 
+
+		git add This folder
+
+All these codes will be run by opening git bash it the cloned folder name of your repository only.
+
+		
+		
+
+
