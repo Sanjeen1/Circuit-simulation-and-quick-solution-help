@@ -1,0 +1,33 @@
+Run sudo apt update
+----------------------------------------------------------------------------------------------------
+Run below command 
+
+sudo apt install build-essential git m4 tcsh csh libx11-dev tcl-dev tk-dev libcairo2-dev \
+mesa-common-dev libglu1-mesa-dev libncurses-dev libxpm-dev libxaw7-dev
+
+-----------------------------------------------------------------------------------------------------
+mkdir vlsitool
+-----------------------------------------------------------------------------------------------------
+cd vlsitool
+-----------------------------------------------------------------------------------------------------
+Magic installation- 
+
+git clone https://github.com/RTimothyEdwards/magic.git
+cd magic
+./configure
+make
+sudo make install
+-----------------------------------------------------------------------------------------------------
+
+git clone git://opencircuitdesign.com/open_pdks
+cd open_pdks
+./configure --enable-sky130-pdk
+make
+sudo make install
+------------------------------------------------------------------------------------------------------
+ls /usr/local/share/pdk/sky130A/libs.tech/magic
+cd /usr/local/share/pdk/sky130A/libs.tech/magic
+------------------------------------------------------------------------------------------------------
+magic -T sky130A
+
+
