@@ -37,9 +37,10 @@ To add new folder to existing repository, suppose you want to add folder name "T
 
 		git add This folder
 
-All these codes will be run by opening git bash it the cloned folder name of your repository only.
+All these codes will be run by opening git bash in the cloned folder name of your repository only.
 
 		
 		
+
 
 
