@@ -6,11 +6,16 @@ erase A ------> to erase the label of the selected portion
 
 DRC why ------> for knowing why drc error came
 
+paint command to draw layout
+eg -
+paint poly ---> polysilicon
+
 to extract into spice file ----->
 
 extract all
 ext2spice
 
 for undo ----> u
+
 
 selet the are from mouse then press a to select the portion to move you can use 2, 8, 4 , 6 and to copy and paste press c
